@@ -1,8 +1,19 @@
+
+plugins {
+    // Get the latest version from https://plugins.gradle.org/plugin/com.srcclr.gradle
+    id "com.srcclr.gradle" version "2.2.22"
+}
+
 apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
+
+srcclr {
+    apiToken = "YOUR_TOKEN_HERE"
+    failureLevel = "never"
+}
 
 android {
     compileSdkVersion 27
