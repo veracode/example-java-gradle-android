@@ -30,4 +30,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    implementation 'org.mindrot:jbcrypt:0.3m'
+    implementation 'org.springframework:spring-web:3.1.1.RELEASE'
+    implementation 'org.apache.sling:org.apache.sling.engine:2.0.4-incubator'
+    implementation 'org.keycloak:keycloak-saml-core:1.8.1.Final'
+    implementation 'org.neo4j:neo4j-jmx:1.3'
+    implementation 'com.h2database:h2:1.3.176'
+    implementation 'org.apache.kafka:kafka_2.11:0.9.0.1'
+    implementation 'net.bull.javamelody:javamelody-core:1.59.0'
+    implementation 'com.orientechnologies:orientdb-server:2.1.9'
 }
